@@ -1,0 +1,12 @@
+<h1>Livros disponiveis</h1>
+<div class="books-container">
+    <a href="/">Adicionar Livro</a>
+    {{!-- Loop , books esta vindo do back --}}
+    {{#each books}}
+        <div>
+            {{!-- Ao entrar em um loop para acessar o item é com o this --}}
+            #{{this.id}} -
+            <span class="bold"><a href="/books/{{this.id}}">{{this.title}}</a></span> - {{this.pageqty}} páginas
+        </div>
+    {{/each}}
+</div>

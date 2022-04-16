@@ -1,0 +1,18 @@
+ --------------- npm init -y --------------
+ Comando para criar o package.json com dependecias e tudo mais
+ No package pode configurar um script como "start"  e nele ja deixar preparado para quando rodar iniciar a index
+ ex:
+ node ./index.js localhost 3000
+
+ --------------- npm install <pacotes> --------------
+ Pacotes como Handlebars, Mysql, Nodemon (sempre deixar o servidor rodando) é necessário rodar o comando npm install e os pacotes
+ Se caso for baixado da web um repositorio e nele tenha dependecias, é só rodar npm install que ele ira adicionar todas as dependencias
+ Ex adicionando pacotes:
+ npm install --save-dev express express-handlebars nodemon mysql
+
+ --------------- npm install <pacotes> --------------
+Tem que estar parametrizado no package.json o script de start para rodar
+
+
+ --------------- npm uninstall <pacotes> --------------
+Desisntalar o pacote
